@@ -1,0 +1,60 @@
+.container1 {
+  position: fixed;
+  background-color: #ffc017;
+  width: 100%;
+  padding-block: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid;
+}
+.logo {
+  position: relative;
+  top: 10px;
+  right: 80px;
+}
+.boxblack {
+  background-color: #191919;
+  color: white;
+  border-radius: 25px;
+  padding-inline: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.opzioni {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 70px;
+}
+.a {
+  padding: 15px;
+  cursor: pointer;
+}
+
+h1 {
+  color: #191919;
+  font-size: 100px;
+}
+.boxblack {
+  background-color: #191919;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-top: -5px;
+}
+.rmv {
+  text-decoration: none;
+  color: #191919;
+}
+.rmw {
+  text-decoration: none;
+  color: white;
+}
+.container2 {
+  background-color: #ffc017;
+  width: 100%;
+  color: #191919;
+  padding-top: 200px;
+}
