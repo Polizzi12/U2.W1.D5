@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Spectral", serif;
+}
 .container1 {
   position: fixed;
   background-color: #ffc017;
@@ -35,6 +39,10 @@
 h1 {
   color: #191919;
   font-size: 100px;
+  padding-bottom: 10px;
+}
+.d {
+  padding-bottom: 10px;
 }
 .boxblack {
   background-color: #191919;
@@ -52,9 +60,157 @@ h1 {
   text-decoration: none;
   color: white;
 }
-.container2 {
+.btn {
+  position: relative;
+  top: 10px;
+  padding-block: 2px;
+  background-color: #191919;
+  color: white;
+  border: 10px solid #191919;
+  border-radius: 99px;
+  max-width: 260px;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  text-align: center;
+  cursor: pointer;
+  padding-inline: 40px;
+}
+
+.cont {
   background-color: #ffc017;
-  width: 100%;
   color: #191919;
-  padding-top: 200px;
+  display: flex;
+  padding-bottom: 65px;
+  border-bottom: 0.5px solid;
+}
+.curioso {
+  position: relative;
+  top: 150px;
+  right: 250px;
+}
+.curioso p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 22px;
+}
+.trnd {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left: 322px;
+  top: 60px;
+}
+.trnd h2 {
+  padding-top: 8px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.numeri {
+  color: #f2f2f2;
+  font-size: 40px;
+  position: relative;
+}
+.r1 {
+  display: flex;
+}
+.c1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  left: 20px;
+}
+.cerchio {
+  border-radius: 50%;
+  width: 25px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+.tt {
+  display: flex;
+}
+.tt p {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.c1 h3 {
+  padding-block: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.i {
+  display: flex;
+  padding-inline: 80px;
+}
+
+.dodici {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 70px;
+}
+#one {
+  position: relative;
+  left: 50px;
+}
+#two {
+  position: relative;
+  right: 10px;
+}
+#three {
+  position: relative;
+  right: 80px;
+}
+#four {
+  position: relative;
+  left: 80px;
+  top: 30px;
+}
+
+#five {
+  position: relative;
+  top: 30px;
+  right: 35px;
+}
+
+#six {
+  position: relative;
+  top: 30px;
+  right: 120px;
+}
+.star {
+  position: relative;
+  top: 5px;
+  left:5px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap:300px;
+  padding-top:200px;
+}
+
+.bb{
+  padding-top:20px;
+}
+
+.rl{
+  display: flex;
+  justify-content: space-between;
+  max-width:450px;
+}
+.add{
+  position: relative;
+  top:20px;
+}
+.ap{
+  display: flex;
+  justify-content: center;
+}
+.sp{
+  position:relative;
+left:100px;
 }
