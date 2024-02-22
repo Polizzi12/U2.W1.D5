@@ -75,7 +75,18 @@ h1 {
   cursor: pointer;
   padding-inline: 40px;
 }
-
+.ecs{
+  position:relative;
+  top:10px;
+}
+.flx {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  gap:50px;
+  top: 50px;
+}
 .cont {
   background-color: #ffc017;
   color: #191919;
@@ -86,15 +97,14 @@ h1 {
 .curioso {
   position: relative;
   top: 150px;
-  right: 250px;
+  left:350px;
 }
 .curioso p {
   padding-top: 20px;
   padding-bottom: 40px;
   font-size: 22px;
-
 }
-.curioso h1{
+.curioso h1 {
   font-weight: 600;
 }
 .trnd {
@@ -117,12 +127,18 @@ h1 {
 .r1 {
   display: flex;
 }
+.r1 span svg {
+  cursor: pointer;
+}
 .c1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   position: relative;
   left: 20px;
+}
+.c1 p {
+  cursor: pointer;
 }
 .cerchio {
   border-radius: 50%;
@@ -133,6 +149,7 @@ h1 {
 }
 .tt {
   display: flex;
+  cursor: pointer;
 }
 .tt p {
   position: relative;
@@ -143,19 +160,20 @@ h1 {
   padding-block: 15px;
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .i {
   display: flex;
   padding-inline: 80px;
 }
-
 .dodici {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 70px;
 }
+
 #one {
   position: relative;
   left: 50px;
@@ -170,14 +188,14 @@ h1 {
 }
 #four {
   position: relative;
-  left: 80px;
+  left: 77px;
   top: 30px;
 }
 
 #five {
   position: relative;
   top: 30px;
-  right: 35px;
+  right: 33px;
 }
 
 #six {
@@ -195,6 +213,8 @@ h1 {
   flex-direction: column;
   gap: 70px;
   padding-top: 170px;
+  position: relative;
+  left: 175px;
 }
 
 .bb {
@@ -218,6 +238,7 @@ h1 {
 .uno {
   position: relative;
   left: 80px;
+  top: 10px;
 }
 .due {
   position: relative;
@@ -247,7 +268,52 @@ h1 {
 .spz {
   padding-bottom: 25px;
   border-bottom: 0.2px solid #ccc;
+  color: #1a8917;
+  padding-top: 25px;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
 }
 .lst {
-  padding-top: 25px;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lst div {
+  color: #747474;
+  padding: 15px;
+  cursor: pointer;
+}
+.lll {
+  padding-top: 170px;
+  width: 500px;
+  position: relative;
+  right: 50px;
+}
+.plus {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.minicont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-block: 5px;
+  padding-left: 10px;
+}
+.minicont div {
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  padding-inline: 5px;
+  padding-block: 15px;
+  text-align: center;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.flexer {
+  display: flex;
+  justify-content: space-around;
 }
