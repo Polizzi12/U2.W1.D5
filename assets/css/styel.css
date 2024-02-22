@@ -92,6 +92,10 @@ h1 {
   padding-top: 20px;
   padding-bottom: 40px;
   font-size: 22px;
+
+}
+.curioso h1{
+  font-weight: 600;
 }
 .trnd {
   display: flex;
@@ -184,33 +188,66 @@ h1 {
 .star {
   position: relative;
   top: 5px;
-  left:5px;
+  left: 5px;
 }
-.cards{
+.cards {
   display: flex;
   flex-direction: column;
-  gap:300px;
-  padding-top:200px;
+  gap: 70px;
+  padding-top: 170px;
 }
 
-.bb{
-  padding-top:20px;
+.bb {
+  padding-top: 20px;
 }
 
-.rl{
+.rl {
   display: flex;
   justify-content: space-between;
-  max-width:450px;
+  max-width: 450px;
 }
-.add{
+.add {
   position: relative;
-  top:20px;
+  top: 20px;
 }
-.ap{
+.ap {
   display: flex;
-  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
 }
-.sp{
-  position:relative;
-left:100px;
+.uno {
+  position: relative;
+  left: 80px;
+}
+.due {
+  position: relative;
+  left: 121px;
+}
+.tre {
+  position: relative;
+  left: 133px;
+}
+.quattro {
+  position: relative;
+  left: 140px;
+}
+.cinque {
+  position: relative;
+  left: 72px;
+}
+.sei {
+  position: relative;
+  left: 82px;
+}
+.sette {
+  position: relative;
+  left: 45px;
+}
+
+.spz {
+  padding-bottom: 25px;
+  border-bottom: 0.2px solid #ccc;
+}
+.lst {
+  padding-top: 25px;
 }
